@@ -1,5 +1,5 @@
 <template>
-  <h1>Hello, {{model.enteredName}}</h1>
+  <h1>Hello, {{ model.enteredName }}</h1>
   <h2>You are invited to stuff!</h2>
   <form>
     <div>
@@ -39,7 +39,30 @@
       <textarea rows="10" cols="40" id="additionalNotesInput" v-model="model.additionalNotes" />
     </div>
     <div>
-      You have {{model.additionalGuestAvailable}} guests you can invite!
+      You have {{ model.additionalGuestAvailable }} guests you can invite!
+    </div>
+    <div>
+      <button v-if="moreGuestsAvailable" v-on:click="createAdditionalGuest" type="button">Add Additional Guest</button>
+    </div>
+    <div>
+      <span v-for="(guest, index) in model.additionalGuests">
+        <div>
+          <p>Guest {{index + 1}}</p>
+          <div>
+            <label>Preferred Name</label>
+            <input v-model="guest.preferredName" />
+          </div>
+          <div>
+            <label>Dietary Notes</label>
+            <input v-model="guest.dietaryNotes" />
+          </div>
+          <div>
+            <label>Additional Name</label>
+            <input v-model="guest.additionalNotes" />
+          </div>
+          <button v-on:click="removeAdditionalGuest(index)" type="button">Delete</button>
+        </div>
+      </span>
     </div>
     <div>
       <button v-on:click="updateInvitee" type="button">Update
@@ -62,7 +85,7 @@ export default {
       attendingCeremony: "",
       invitedToReception: "",
       attendingReception: "",
-      additionalGuestsAvailable: 0,
+      additionalGuestAvailable: 0,
       additionalGuests: [],
       dietaryNotes: "",
       additionalNotes: ""
@@ -77,6 +100,18 @@ export default {
     },
     async updateInvitee() {
       await this.$http.put(`/api/v1/invitee/fromToken/${this.$route.params.userAccessToken}`, this.model);
+    },
+    createAdditionalGuest() {
+      console.log("Creating new guest");
+      this.model.additionalGuests.push({});
+    },
+    removeAdditionalGuest(index) {
+      this.model.additionalGuests.splice(index, 1);
+    }
+  },
+  computed: { 
+    moreGuestsAvailable() {
+      return this.model.additionalGuests.length < this.model.additionalGuestAvailable;
     }
   }
 }
