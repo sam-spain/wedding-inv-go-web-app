@@ -1,9 +1,11 @@
 <template>
+    <div>
     <form>
         <label for="invitationCodeInput">Enter your invitation code here:</label>
         <input id="invitationCodeInput" v-model="invitationCode"/>
         <button v-on:click="goToNavigation">Go to invitation</button>
     </form>
+</div>
 </template>
 
 <script>
@@ -19,3 +21,8 @@ export default {
     }
 }
 </script>
+
+
+<style>
+    div {text-align: center;}
+</style>
