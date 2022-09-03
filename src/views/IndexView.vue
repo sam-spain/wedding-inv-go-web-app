@@ -8,7 +8,7 @@
                 <br />
                 <div>
                     <button type="button" v-on:click="goToNavigation"
-                        class="text-secondary hover:text-secondary-dark bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium text-lg px-5 py-2.5 mr-2 mb-2 dark:bg-secondary-dark dark:hover:bg-secondary focus:outline-none dark:focus:ring-blue-800" >
+                        class="text-secondary hover:text-secondary-dark focus:ring-4 font-medium text-lg px-5 py-2.5 mr-2 mb-2 bg-secondary-dark hover:bg-secondary focus:outline-none focus:ring-secondary-darker" >
                         Go To Invite
                     </button>
                 </div>
