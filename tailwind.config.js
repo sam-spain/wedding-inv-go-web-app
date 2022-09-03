@@ -10,7 +10,8 @@ module.exports = {
       'primary': {
         DEFAULT: "#A1BDD7",
         dark: "#7DA4C7",
-        darker: "#598BB8"
+        darker: "#598BB8",
+        darkest: "#2F516F"
       },
       'secondary': {
         DEFAULT: "#D7BBA1",
@@ -27,6 +28,12 @@ module.exports = {
       "error": {
         DEFAULT: "#D7A1BD",
         dark: "#C87DA4"
+      },
+      "white": {
+        DEFAULT: "#F1EDEF",
+        dark: "#E3D9DB",
+        darker: "#CDBCBF",
+        darkest: "#B79FA3"
       }
 
     }
