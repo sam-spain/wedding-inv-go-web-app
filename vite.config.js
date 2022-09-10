@@ -6,6 +6,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/wedding-inv-go-web-app/",
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
