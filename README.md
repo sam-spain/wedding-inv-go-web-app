@@ -27,3 +27,5 @@ npm run dev
 ```sh
 npm run build
 ```
+
+https://dev.to/shashannkbawa/deploying-vite-app-to-github-pages-3ane deployment
