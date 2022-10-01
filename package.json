@@ -1,9 +1,11 @@
 {
   "name": "wedding-inv-go-web-app",
   "version": "0.0.0",
+  "private": true,
+  "homepage": "/wedding-inv-go-web-app/",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "build": "vite build && npm run deploy",
     "preview": "vite preview --port 4173",
     "deploy": "cd dist && cp index.html 404.html"
   },
@@ -19,6 +21,7 @@
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8",
-    "vite": "^3.0.4"
+    "vite": "^3.0.4",
+    "execa": "^5.1.1"
   }
 }
