@@ -73,7 +73,7 @@
                 <input v-model="guest.dietaryNotes" class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5" />
               </div>
               <div class="mb-4 px-2">
-                <label class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Additional Name</label>
+                <label class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Additional Notes</label>
                 <input v-model="guest.additionalNotes" class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"  />
               </div>
               <button v-on:click="removeAdditionalGuest(index)" type="button" class="text-white hover:text-error-dark focus:ring-4 font-medium text-lg px-5 py-2.5 mr-2 mb-2 bg-error hover:bg-secondary focus:outline-none focus:ring-secondary-darker">Delete</button>
