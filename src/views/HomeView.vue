@@ -13,13 +13,13 @@
     <div class="bg-white-dark">
       <h2 class="text-5xl text-primary-darkest mb-4">Please enter your details below</h2>
       <form>
-        <div class="mb-4 px-2">
+        <div v-if="model.invitedToCeremony" class="mb-4 px-2">
           <label for="attendingCeremonyInput" class="text-3xl font-medium text-gray-900 dark:text-gray-300">I would like to attend the ceremony section of the wedding</label>
           <br />
           <input type="checkbox" id="attendingCeremonyInput" class="w-12 h-12 mt-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"  v-model="model.attendingCeremony" />
           
         </div>
-        <div class="mb-4 px-2">
+        <div v-if="model.invitedToReception" class="mb-4 px-2">
           <label for="attendingReceptionInput" class="text-3xl mb-10 font-medium text-gray-900 dark:text-gray-300">I would like to attend the reception section of the wedding</label>
           <br />
           <input type="checkbox" id="attendingReceptionInput" class="w-12 h-12 mt-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" v-model="model.attendingReception" />
@@ -53,7 +53,7 @@
           <label for="additionalNotesInput" class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Additional Notes</label>
           <textarea rows="10" cols="40" id="additionalNotesInput" v-model="model.additionalNotes" />
         </div>
-        <div>
+        <div v-if="model.additionalGuestAvailable">
           You have {{ model.additionalGuestAvailable }} guests you can invite!
         </div>
         <div>

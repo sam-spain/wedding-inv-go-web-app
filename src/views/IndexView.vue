@@ -1,9 +1,9 @@
 <template>
     <div class="flex h-screen bg-white">
-        <div class="m-auto">
+        <div class="m-auto text-4xl">
             <form>
-                <div class="text-7xl">
-                    <input id="invitationCodeInput" placeholder="Type your code here" v-model="invitationCode" class="bg-white placeholder-white-darkest text-primary-dark" />
+                <div>
+                    <input id="invitationCodeInput" placeholder="Type your code here" v-model="invitationCode" class="bg-white placeholder-white-darkest text-primary-dark min-w-fit" />
                 </div>
                 <br />
                 <div>
