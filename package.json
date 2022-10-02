@@ -7,7 +7,8 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build && npm run deploy",
     "preview": "vite preview --port 4173",
-    "deploy": "cd dist && cp index.html 404.html"
+    "deploy": "cd dist && cp index.html 404.html",
+    "gh-pages-deploy": "node ./scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
