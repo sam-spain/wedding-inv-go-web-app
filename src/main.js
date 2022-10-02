@@ -11,4 +11,8 @@ if (process.env.NODE_ENV === "production") {
 } else {
     baseURL = "http://localhost:8081";
 }
+
+if (typeof baseURL !== "undefined") {
+    Axios.defaults.baseURL = baseURL;
+  }
 createApp(App).use(VueAxios, Axios).use(router).mount('#app')
