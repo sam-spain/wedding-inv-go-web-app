@@ -1,6 +1,6 @@
 <template>
     <div class="flex h-screen bg-white">
-        <div class="m-auto text-4xl w-11/12">
+        <div class="m-auto text-4xl flex-auto">
             <form>
                 <div>
                     <input id="invitationCodeInput" placeholder="Type your code here" v-model="invitationCode" class="bg-white placeholder-white-darkest text-primary-dark min-w-fit" />
