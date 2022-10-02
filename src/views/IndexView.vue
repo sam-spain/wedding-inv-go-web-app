@@ -1,19 +1,17 @@
 <template>
-    <div class="flex h-screen bg-white">
-        <div class="m-auto text-4xl flex-auto">
-            <form>
-                <div>
-                    <input id="invitationCodeInput" placeholder="Type your code here" v-model="invitationCode" class="bg-white placeholder-white-darkest text-primary-dark min-w-fit" />
-                </div>
-                <br />
-                <div>
-                    <button type="button" v-on:click="goToNavigation"
-                        class="text-white hover:text-secondary-dark focus:ring-4 font-medium text-lg px-5 py-2.5 mr-2 mb-2 bg-primary-dark hover:bg-secondary focus:outline-none focus:ring-secondary-darker">
-                        Go To Invite
-                    </button>
-                </div>
-            </form>
-        </div>
+    <div class="h-screen bg-white">
+        <form class="m-auto text-4xl flex">
+            <div class="flex-auto">
+                <input id="invitationCodeInput" placeholder="Type your code here" v-model="invitationCode" class="bg-white placeholder-white-darkest text-primary-dark min-w-fit" />
+            </div>
+            <br />
+            <div class="flex-auto">
+                <button type="button" v-on:click="goToNavigation"
+                    class="text-white hover:text-secondary-dark focus:ring-4 font-medium text-lg px-5 py-2.5 mr-2 mb-2 bg-primary-dark hover:bg-secondary focus:outline-none focus:ring-secondary-darker">
+                    Go To Invite
+                </button>
+            </div>
+        </form>
     </div>
 </template>
 
