@@ -5,14 +5,14 @@
     <h1 class="bg-primary-darkest text-6xl leading-none text-white md:text-4xl lg:text-6xl">We would like you to join in
       our story...</h1>
     <div class="bg-primary-darkest h-12"></div>
-    <div class="bg-white grid grid-cols-6 grid-flow-row">
-      <div class="col-start-2 col-span-4">Karen and Sam's first date - March 2018</div>
-      <img class="col-start-1 col-end-3" src="@/assets/IMG_20180308_181618.jpg" alt="Sam and Karen">
-      <iframe class="col-start-3 col-end-5 w-full h-full"
+    <div class="col-start-2 col-span-4">Karen and Sam's first date - March 2018</div>
+    <div class="bg-white grid grid-cols-3 md:grid-cols-9 grid-flow-row">
+      <img class="col-span-3" src="@/assets/IMG_20180308_181618.jpg" alt="Sam and Karen">
+      <iframe class="col-span-3 w-full h-full"
         referrerpolicy="no-referrer-when-downgrade" 
         src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBkgrMtxoRns1F2oyRmcfvQJIgDqB2uvPw&center=53.744014145893225, -0.3390485200832282&zoom=19&maptype=satellite">
       </iframe>
-      <div class="col-start-6 col-end-6">
+      <div class="col-span-3">
         <p>We met for the first in person in March 2018 for our very first date. The magic first began in an open and safe spot in Queen Victoria Square.</p>
       </div>
     </div>
