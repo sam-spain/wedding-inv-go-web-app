@@ -1,11 +1,11 @@
 <template>
   <div>
-    <h1 class=" bg-primary-darkest text-8xl leading-none text-white md:text-5xl lg:text-6xl">Hello, {{ model.enteredName
+    <h1 class=" bg-primary-darkest text-8xl leading-none text-white md:text-5xl lg:text-6xl">Maayong Adlaw, {{ model.enteredName
     }}</h1>
     <h1 class="bg-primary-darkest text-6xl leading-none text-white md:text-4xl lg:text-6xl">We would like you to join in
       our story...</h1>
     <div class="bg-primary-darkest h-12"></div>
-    <div class="col-start-2 col-span-4">Karen and Sam's first date - March 2018</div>
+    <div class="text-4xl col-start-2 col-span-4">Karen and Sam's first date - March 2018</div>
     <div class="bg-white grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <img class="col-span-3" src="@/assets/IMG_20180308_181618.jpg" alt="Sam and Karen">
       <iframe class="col-span-3 w-full h-full"
