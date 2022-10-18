@@ -233,6 +233,7 @@ export default {
     },
     async updateInvitee() {
       await this.$http.put(`/api/v1/invitee/fromToken/${this.$route.params.userAccessToken}`, this.model);
+      this.$toast.success("Changes saved!");
     },
     createAdditionalGuest() {
       console.log("Creating new guest");
