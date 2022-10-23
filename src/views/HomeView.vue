@@ -101,7 +101,9 @@
         <p>
           If you would like to join us for our wedding in March then please fill in all the details below. We will use this to make sure you're kept up to date with any critial changes to the evnt and ensure any needs are catered for.
         </p>
-        <p></p>
+        <br />
+        <p>You can read more about the venue <a href="https://www.bluewatermaribago.com.ph" class="text-primary-darker underline">here</a>.</p>
+        <p>You can learn additional information about the event <a href="https://fb.me/e/fBz644j9M" class="text-primary-darker underline">here</a>.</p>
       </div>
       <img class="col-span-3" src="@/assets/event5_2.jpeg" alt="Sam and Karen">
     </div>
