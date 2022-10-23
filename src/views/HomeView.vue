@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="model.enteredName">
     <h1 class=" bg-primary-darkest text-8xl leading-none text-white md:text-5xl lg:text-6xl">Maayong Adlaw, {{
     model.enteredName
     }}</h1>
@@ -213,6 +213,9 @@
         </div>
       </form>
     </div>
+  </div>
+  <div v-else>
+    <h1 class=" bg-primary-darkest p-10 text-8xl leading-none text-white md:text-5xl lg:text-6xl">Sorry, it looks like your invite code didn't work.</h1>
   </div>
 </template>
 
