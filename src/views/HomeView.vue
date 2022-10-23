@@ -6,7 +6,7 @@
     <h1 class="bg-primary-darkest text-6xl leading-none text-white md:text-4xl lg:text-6xl">We would like you to join in
       our story...</h1>
     <div class="bg-primary-darkest h-12"></div>
-    <div class="bg-white text-black text-4xl col-start-2 col-span-4">Karen and Sam's first date - March 2018</div>
+    <div class=" bg-white text-black text-4xl p-5 col-start-2 col-span-4"><span class="">Karen and Sam's first date - March 2018</span></div>
     <div class="bg-white text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <img class="col-span-3" src="@/assets/IMG_20180308_181618.jpg" alt="Sam and Karen">
       <iframe class="col-span-3 w-full h-full" referrerpolicy="no-referrer-when-downgrade"
@@ -25,7 +25,7 @@
         </p>
       </div>
     </div>
-    <div class="bg-white-dark text-black text-4xl col-start-2 col-span-4">First holiday in the Philippines - January 2019</div>
+    <div class="bg-white-dark p-5 align-middle	 text-black text-4xl col-start-2 col-span-4">First holiday in the Philippines - January 2019</div>
     <div class="bg-white-dark text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <iframe class="col-span-3 w-full h-full" referrerpolicy="no-referrer-when-downgrade"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBkgrMtxoRns1F2oyRmcfvQJIgDqB2uvPw&maptype=satellite&q=cebu+island">
@@ -49,7 +49,7 @@
       <img class="col-span-3" src="@/assets/event2_3.jpg" alt="Sam and Karen">
       <img class="col-span-3" src="@/assets/event2_4.jpg" alt="Sam and Karen">
     </div>
-    <div class="bg-white text-black text-4xl col-start-2 col-span-4">Proposal - January 2020</div>
+    <div class="bg-white p-5 text-black text-4xl col-start-2 col-span-4">Proposal - January 2020</div>
     <div class="bg-white text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <div class="col-span-3 text-sm">
         <br />
@@ -68,7 +68,7 @@
       <img class="col-span-3" src="@/assets/event3_2.jpg" alt="Sam and Karen">
       <iframe class="col-span-3 w-full h-full" src="https://www.youtube-nocookie.com/embed/1OyZzPKP8yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="bg-white-dark text-black text-4xl col-start-2 col-span-4">Sofia Joinning The Family - July 2021</div>
+    <div class="bg-white-dark p-5 text-black text-4xl col-start-2 col-span-4">Sofia Joining The Family - July 2021</div>
     <div class="bg-white-dark text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <img class="col-span-3" src="@/assets/event4_1.jpg" alt="Sam and Karen">
       <div class="col-span-3 text-sm">
@@ -89,7 +89,7 @@
       </iframe>
       <img class="col-span-3" src="@/assets/event4_3.jpg" alt="Sam and Karen">
     </div>
-    <div class="bg-white text-black text-4xl">Our Next Experience Together - March 2023</div>
+    <div class="bg-white p-5 text-black text-4xl">Our Next Experience Together - March 2023</div>
     <div class="bg-white text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <img class="col-span-3" src="@/assets/event5_1.jpeg" alt="Sam and Karen">
       <div class="col-span-3 text-sm">
@@ -107,7 +107,7 @@
       </div>
       <img class="col-span-3" src="@/assets/event5_2.jpeg" alt="Sam and Karen">
     </div>
-    <div class="bg-white-dark">
+    <div class="bg-white-dark p-5">
       <h2 class="text-5xl text-black mb-4">Please let us know your details below</h2>
       <form>
         <div v-if="model.invitedToCeremony" class="mb-4 px-2">
