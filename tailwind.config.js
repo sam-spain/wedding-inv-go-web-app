@@ -5,13 +5,17 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['Literata', 'sans-serif'] 
+      },
+    },
     colors: {
       'primary': {
-        DEFAULT: "#A1BDD7",
+        DEFAULT: "#839bb3",
         dark: "#7DA4C7",
         darker: "#598BB8",
-        darkest: "#2F516F"
+        darkest: "#7db3e9"
       },
       'secondary': {
         DEFAULT: "#D7BBA1",
@@ -34,6 +38,9 @@ module.exports = {
         dark: "#E3D9DB",
         darker: "#CDBCBF",
         darkest: "#B79FA3"
+      },
+      "black": {
+        DEFAULT: "#434b4f"
       }
 
     }

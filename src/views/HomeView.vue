@@ -6,13 +6,14 @@
     <h1 class="bg-primary-darkest text-6xl leading-none text-white md:text-4xl lg:text-6xl">We would like you to join in
       our story...</h1>
     <div class="bg-primary-darkest h-12"></div>
-    <div class="bg-white text-4xl col-start-2 col-span-4">Karen and Sam's first date - March 2018</div>
-    <div class="bg-white grid grid-cols-3 md:grid-cols-9 grid-flow-row">
+    <div class="bg-white text-black text-4xl col-start-2 col-span-4">Karen and Sam's first date - March 2018</div>
+    <div class="bg-white text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <img class="col-span-3" src="@/assets/IMG_20180308_181618.jpg" alt="Sam and Karen">
       <iframe class="col-span-3 w-full h-full" referrerpolicy="no-referrer-when-downgrade"
         src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBkgrMtxoRns1F2oyRmcfvQJIgDqB2uvPw&center=53.744014145893225, -0.3390485200832282&zoom=19&maptype=satellite">
       </iframe>
-      <div class="col-span-3 text-xs">
+      <div class="col-span-3 text-sm">
+        <br />
         <p>
           "What a crazy day this was. I suggested we start small and simple with a hot drink in the city centre. In the
           end we walked and talked all across town! The spark between us was pretty clear and the days following it were
@@ -24,12 +25,13 @@
         </p>
       </div>
     </div>
-    <div class="bg-white-dark text-4xl col-start-2 col-span-4">First holiday in the Philippines - January 2019</div>
-    <div class="bg-white-dark grid grid-cols-3 md:grid-cols-9 grid-flow-row">
+    <div class="bg-white-dark text-black text-4xl col-start-2 col-span-4">First holiday in the Philippines - January 2019</div>
+    <div class="bg-white-dark text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <iframe class="col-span-3 w-full h-full" referrerpolicy="no-referrer-when-downgrade"
         src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBkgrMtxoRns1F2oyRmcfvQJIgDqB2uvPw&maptype=satellite&q=cebu+island">
       </iframe>
-      <div class="col-span-3 text-xs">
+      <div class="col-span-3 text-sm">
+        <br />
         <p>
           "It's hard to believe how fast our relationship was going. In under a year of meeting we had already flown to
           the beautiful Philippines together. I had already loved pinoy cuisine before but this holiday was just heaven
@@ -42,14 +44,15 @@
       </div>
       <img class="col-span-3" src="@/assets/event2_1.jpg" alt="Sam and Karen">
     </div>
-    <div class="bg-white-dark grid grid-cols-3 md:grid-cols-9 grid-flow-row">
+    <div class="bg-white-dark text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <img class="col-span-3" src="@/assets/event2_2.jpg" alt="Sam and Karen">
       <img class="col-span-3" src="@/assets/event2_3.jpg" alt="Sam and Karen">
       <img class="col-span-3" src="@/assets/event2_4.jpg" alt="Sam and Karen">
     </div>
-    <div class="bg-white text-4xl col-start-2 col-span-4">Proposal - January 2020</div>
-    <div class="bg-white grid grid-cols-3 md:grid-cols-9 grid-flow-row">
-      <div class="col-span-3 text-xs">
+    <div class="bg-white text-black text-4xl col-start-2 col-span-4">Proposal - January 2020</div>
+    <div class="bg-white text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
+      <div class="col-span-3 text-sm">
+        <br />
         <p>
           "It was after our second holiday in the Philippines in November 2019 that I started thinking about our life
           together. I had even looked at rings just before the holiday and finally bought one in January. The right
@@ -65,10 +68,10 @@
       <img class="col-span-3" src="@/assets/event3_2.jpg" alt="Sam and Karen">
       <iframe class="col-span-3 w-full h-full" src="https://www.youtube-nocookie.com/embed/1OyZzPKP8yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="bg-white-dark text-4xl col-start-2 col-span-4">Sofia Joinning The Family - July 2021</div>
-    <div class="bg-white-dark grid grid-cols-3 md:grid-cols-9 grid-flow-row">
+    <div class="bg-white-dark text-black text-4xl col-start-2 col-span-4">Sofia Joinning The Family - July 2021</div>
+    <div class="bg-white-dark text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <img class="col-span-3" src="@/assets/event4_1.jpg" alt="Sam and Karen">
-      <div class="col-span-3 text-xs">
+      <div class="col-span-3 text-sm">
         <p>
           "This is one of the toughest, most exciting moments in my life I think I'll ever have. For better or worse we had Sofia during the heights of covid which meant no friends or family could help us while Karen was in hospital. I only got to visit 1 hour each day for the 10 days Karen was there. Both Karen and Sofia fought hard to get well enough to leave the hospital which made an unforgettable 2 passanger drive home." - Sam
         </p>
@@ -79,24 +82,31 @@
       </div>
       <iframe class="col-span-3 w-full h-full" src="https://www.youtube-nocookie.com/embed/dV294LIUnos" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="bg-white-dark grid grid-cols-3 md:grid-cols-9 grid-flow-row">
+    <div class="bg-white-dark text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
       <img class="col-span-3" src="@/assets/event4_2.jpg" alt="Sam and Karen">
       <iframe class="col-span-3 w-full h-full" referrerpolicy="no-referrer-when-downgrade"
         src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBkgrMtxoRns1F2oyRmcfvQJIgDqB2uvPw&center=53.743871748194984, -0.3554770775859294&zoom=19&maptype=satellite">
       </iframe>
       <img class="col-span-3" src="@/assets/event4_3.jpg" alt="Sam and Karen">
     </div>
-    <div class="bg-white text-4xl">Our Next Experience Together - March 2023</div>
-    <div class="bg-white grid grid-cols-3 md:grid-cols-9 grid-flow-row">
-      <div class="col-span-3 text-xs">
+    <div class="bg-white text-black text-4xl">Our Next Experience Together - March 2023</div>
+    <div class="bg-white text-black grid grid-cols-3 md:grid-cols-9 grid-flow-row">
+      <img class="col-span-3" src="@/assets/event5_1.jpeg" alt="Sam and Karen">
+      <div class="col-span-3 text-sm">
+        <br />
         <p>
-          I still need to do this bit lol
+          We would like to invite you to our wedding on Saturday the 11th of March 2023 at the Maribago Bluewaters resort in Cebu, Philippines.
         </p>
+        <br />
+        <p>
+          If you would like to join us for our wedding in March then please fill in all the details below. We will use this to make sure you're kept up to date with any critial changes to the evnt and ensure any needs are catered for.
+        </p>
+        <p></p>
       </div>
-      
+      <img class="col-span-3" src="@/assets/event5_2.jpeg" alt="Sam and Karen">
     </div>
     <div class="bg-white-dark">
-      <h2 class="text-5xl text-primary-darkest mb-4">Please enter your details below</h2>
+      <h2 class="text-5xl text-black mb-4">Please let us know your details below</h2>
       <form>
         <div v-if="model.invitedToCeremony" class="mb-4 px-2">
           <label for="attendingCeremonyInput" class="text-3xl font-medium text-gray-900 dark:text-gray-300">I would like
@@ -118,30 +128,30 @@
         </div>
         <div class="mb-4 px-2">
           <label for="preferredNameInput"
-            class="block mb-2 text-2xl font-medium text-primary-darkest dark:text-gray-300">Preferred Name</label>
+            class="block mb-2 text-2xl font-medium text-black dark:text-gray-300">Preferred Name</label>
           <input id="preferredNameInput"
-            class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"
+            class="bg-white border border-white-darkest text-black text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"
             v-model="model.preferredName" />
         </div>
         <div class="mb-4 px-2">
           <label for="contactNumberInput"
-            class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Contact Number</label>
+            class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Contact Number</label>
           <input id="contactNumberInput"
-            class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"
+            class="bg-white border border-white-darkest text-black text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"
             v-model="model.contactNumber" />
         </div>
         <div class="mb-4 px-2">
           <label for="contactEmailInput"
-            class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Contact Email</label>
+            class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Contact Email</label>
           <input id="contactEmailInput"
-            class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"
+            class="bg-white border border-white-darkest text-black text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"
             v-model="model.contactEmail" />
         </div>
         <div class="mb-4 px-2">
           <label for="preferredContactInput"
-            class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Preferred Contact</label>
+            class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Preferred Contact</label>
           <select id="preferredContactInput"
-            class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"
+            class="bg-white border border-white-darkest text-black text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5"
             v-model="model.preferredContact">
             <option value="Email">Email</option>
             <option value="Number">Number</option>
@@ -150,12 +160,12 @@
         </div>
         <div class="mb-4 px-2">
           <label for="dietaryNotesInput"
-            class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Dietary Notes</label>
+            class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Dietary Notes</label>
           <textarea rows="10" cols="40" id="dietaryNotesInput" v-model="model.dietaryNotes" />
         </div>
         <div class="mb-4 px-2">
           <label for="additionalNotesInput"
-            class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Additional Notes</label>
+            class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Additional Notes</label>
           <textarea rows="10" cols="40" id="additionalNotesInput" v-model="model.additionalNotes" />
         </div>
         <div v-if="model.additionalGuestAvailable">
@@ -172,22 +182,22 @@
             <div class="mb-4 px-2">
               <p>Guest {{ index + 1 }}</p>
               <div class="mb-4 px-2">
-                <label class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Preferred
+                <label class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Preferred
                   Name</label>
                 <input v-model="guest.preferredName"
-                  class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5" />
+                  class="bg-white border border-white-darkest text-black text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5" />
               </div>
               <div class="mb-4 px-2">
-                <label class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Dietary
+                <label class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Dietary
                   Notes</label>
                 <input v-model="guest.dietaryNotes"
-                  class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5" />
+                  class="bg-white border border-white-darkest text-black text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5" />
               </div>
               <div class="mb-4 px-2">
-                <label class="block mb-2 text-2xl  font-medium text-primary-darkest dark:text-gray-300">Additional
+                <label class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Additional
                   Notes</label>
                 <input v-model="guest.additionalNotes"
-                  class="bg-white border border-white-darkest text-primary-darkest text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5" />
+                  class="bg-white border border-white-darkest text-black text-sm rounded-lg focus:ring-primary focus:border-primary max-w-md w-full p-2.5" />
               </div>
               <button v-on:click="removeAdditionalGuest(index)" type="button"
                 class="text-white hover:text-error-dark focus:ring-4 font-medium text-lg px-5 py-2.5 mr-2 mb-2 bg-error hover:bg-secondary focus:outline-none focus:ring-secondary-darker">Delete</button>
