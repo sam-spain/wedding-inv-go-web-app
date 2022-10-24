@@ -95,7 +95,7 @@
       <div class="col-span-3 text-sm">
         <br />
         <p>
-          We would like to invite you to our wedding on Saturday the 11th of March 2023 at the Maribago Bluewaters resort in Cebu, Philippines.
+          We would like to invite you to our wedding on Sunday the 12th of March 2023 at the Maribago Bluewaters resort in Cebu, Philippines.
         </p>
         <br />
         <p>
@@ -112,7 +112,7 @@
       <form>
         <div v-if="model.invitedToCeremony" class="mb-4 px-2">
           <label for="attendingCeremonyInput" class="text-3xl font-medium text-gray-900 dark:text-gray-300">I would like
-            to attend the ceremony section of the wedding</label>
+            to attend the ceremony section of the wedding - 4:30 PM PHST (GMT +8)</label>
           <br />
           <input type="checkbox" id="attendingCeremonyInput"
             class="w-12 h-12 mt-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -121,7 +121,7 @@
         </div>
         <div v-if="model.invitedToReception" class="mb-4 px-2">
           <label for="attendingReceptionInput" class="text-3xl mb-10 font-medium text-gray-900 dark:text-gray-300">I
-            would like to attend the reception section of the wedding</label>
+            would like to attend the reception section of the wedding - 6:00 PM PHST (GMT +8)</label>
           <br />
           <input type="checkbox" id="attendingReceptionInput"
             class="w-12 h-12 mt-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
