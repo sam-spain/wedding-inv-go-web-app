@@ -110,7 +110,7 @@
     <div class="bg-white-dark p-5">
       <h2 class="text-5xl text-black mb-4">Please let us know your details below</h2>
       <form>
-        <div v-if="model.invitedToCeremony" class="mb-4 px-2">
+        <div v-if="model.invitedToCeremony && !model.declinedInvite" class="mb-4 px-2">
           <label for="attendingCeremonyInput" class="text-3xl font-medium text-gray-900 dark:text-gray-300">I would like
             to attend the ceremony section of the wedding - 4:30 PM PHST (GMT +8)</label>
           <br />
@@ -119,7 +119,7 @@
             v-model="model.attendingCeremony" />
 
         </div>
-        <div v-if="model.invitedToReception" class="mb-4 px-2">
+        <div v-if="model.invitedToReception && !model.declinedInvite" class="mb-4 px-2">
           <label for="attendingReceptionInput" class="text-3xl mb-10 font-medium text-gray-900 dark:text-gray-300">I
             would like to attend the reception section of the wedding - 6:00 PM PHST (GMT +8)</label>
           <br />
@@ -127,6 +127,19 @@
             class="w-12 h-12 mt-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
             v-model="model.attendingReception" />
 
+        </div>
+
+        <div class="mb-4 px-2">
+          <label for="declinedInviteInput" class="text-3xl mb-10 font-medium text-gray-900 dark:text-gray-300">Unfortunately, I will not be able to attend</label>
+          <br />
+          <input type="checkbox" id="declinedInviteInput"
+            class="w-12 h-12 mt-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            v-model="model.declinedInvite" />
+
+        </div>
+        <div v-if="model.declinedInvite" class="mb-4 px-2 text-3xl">
+          Both of us are very sorry to hear of everyone who cannot make it.<br />
+          If you would like to still be involved then please fill the details below to be able receive notice of the livestream event.
         </div>
         <div class="mb-4 px-2">
           <label for="preferredNameInput"
@@ -160,7 +173,7 @@
             <option value="Facebook">Facebook</option>
           </select>
         </div>
-        <div class="mb-4 px-2">
+        <div v-if="!model.declinedInvite" class="mb-4 px-2">
           <label for="dietaryNotesInput"
             class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Dietary Notes</label>
           <textarea rows="10" cols="40" id="dietaryNotesInput" v-model="model.dietaryNotes" />
@@ -170,16 +183,16 @@
             class="block mb-2 text-2xl  font-medium text-black dark:text-gray-300">Additional Notes</label>
           <textarea rows="10" cols="40" id="additionalNotesInput" v-model="model.additionalNotes" />
         </div>
-        <div v-if="model.additionalGuestAvailable">
+        <div v-if="model.additionalGuestAvailable && !model.declinedInvite">
           You have {{ model.additionalGuestAvailable }} guests you can invite!
         </div>
         <div>
-          <button v-if="moreGuestsAvailable" v-on:click="createAdditionalGuest" type="button"
+          <button v-if="moreGuestsAvailable && !model.declinedInvite" v-on:click="createAdditionalGuest" type="button"
             class="text-white hover:text-secondary-dark focus:ring-4 font-medium text-lg px-5 py-2.5 mr-2 mb-2 bg-primary-dark hover:bg-secondary focus:outline-none focus:ring-secondary-darker">Add
             Additional
             Guest</button>
         </div>
-        <div class="mb-4 px-2">
+        <div v-if="!model.declinedInvite" class="mb-4 px-2">
           <span v-for="(guest, index) in model.additionalGuests">
             <div class="mb-4 px-2">
               <p>Guest {{ index + 1 }}</p>
@@ -233,6 +246,7 @@ export default {
       attendingCeremony: "",
       invitedToReception: "",
       attendingReception: "",
+      declinedInvite: false,
       additionalGuestAvailable: 0,
       additionalGuests: [],
       dietaryNotes: "",
