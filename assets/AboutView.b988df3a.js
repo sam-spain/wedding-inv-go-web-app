@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as s,a as o}from"./index.d92f5454.js";const n={},a={class:"about"},_=o("h1",null,"This website is an archive of our wedding invitation. All guest data has been deleted and therefore no guest names can be used.",-1),c=[_];function i(d,r){return t(),s("div",a,c)}const l=e(n,[["render",i]]);export{l as default};
